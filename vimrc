@@ -1,4 +1,7 @@
 set nu
+set autoindent
+set ts=4 " tabstop
+set expandtab
 
 "" A better way to Esc
 inoremap jj <Esc>
@@ -18,3 +21,6 @@ inoremap <C-u> <Esc>d0cl
 inoremap <C-k> <Esc><Right>C
 inoremap <C-d> <Esc><Right>s
 inoremap <M-d> <C-o>de
+
+""Test iabbreviations
+iabbrev adn and
